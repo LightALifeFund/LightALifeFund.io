@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	  <link rel="icon" 
+         type="image/png" 
+         href="images/rose.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link type="text/css" rel="stylesheet" href = "css/stylesheet.css"/>
+      <title>mental health awareness</title>
+   </head>
+   <body>
+      <div id="maincontainer">
+         <div id="content">
+            <div class="topnav" id="myTopnav">
+               <a href="lightalife.html"><img src="images/logo.jpg" width="150"></img></a></br></br>
+               <a href="lightalife.html">Home</a>
+               <a href="about-us.html">About</a> 
+			   <a href="bio.html" class="active" > Who are we?</a>
+               <a href="contact.html">Contact</a>
+               <a  href="help-us.html">Help Us</a>
+               <a href="faq.html">FAQ</a>
+               <a href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            <script>
+               function myFunction() {
+                   var x = document.getElementById("myTopnav");
+                   if (x.className === "topnav") {
+                       x.className += " responsive";
+                   } else {
+                       x.className = "topnav";
+                   }
+               }
+            </script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+            <script type="text/javascript">
+               jQuery("document").ready(function($){
+               
+               	var nav = $('.topnav');
+               
+               	$(window).scroll(function () {
+               		if ($(this).scrollTop() > 100) {
+               			nav.addClass("f-nav");
+               		} else {
+               			nav.removeClass("f-nav");
+               		}
+               	});
+               
+               });
+                 
+            </script>
+
+
+<div class="bio">
+    <div class="side" id="section-bio 1">
+
+<h1 id="title">Bimpe Onikan</h1>
+<h3 id="position">  coder </br> web designer </h3>
+  <p id="bio-info">My name is Bimpe Onikan and I am a third year student in Kishoge Community College. I believe everyone's mental health is important. The importance of mental health isn't emphasised enough and people need to start taking action. In my opinion if more people both the older and younger generation are educated in mental health then suicide rates may not be as high as they are right now. Creating this website and hosting a bake sale was an idea to spread more awareness around our school and to our classmates. Suicide is quite common around teenagers this is because of the amount of pressure put on students to do well academically as well as pressure from home to get the best results. Our youth should know that they are not alone and help is always there.  </p>
+  <p id="bio-info">I helped make this website what it is. I also worked to help with the mental health awareness bake sale hosted. I contributed in many ways and worked tirelessly to achieve all our aims.  </p>
+  
+  </div>
+  <div class="side" id="section-bio 2">
+  <center>
+<img id="profile-pic"src="images/bimpe.png" alt="Avatar">
+  </center>
+
+<h1 id="title">Minara Bagam</h1>
+<h3 id="position"> coder </br> event planner</h3>
+  <p id="bio-info">My name is  Minara Bagam and I am a third year student in Kishoge Community College. I wanted to base this website on mental health, especially around young people who are going through school and overall challenges in life who may have a hard time coming to terms with their feelings and with no way on releasing these emotions it takes a toll on their mental health. Many people will tend to crack under pressure. This may lead to mental health disorders such as anxiety, depression etc. As the numbers of teen suicde rises, I think its important for more people to be aware of what is happening and how to prevent issues like this, also to let the person who is going through a tough time to let them know that things will be okay and that there are others willing to help.   </p>
+  <p id="bio-info">I helped with the layout and designing of this website. I also had the role as manager to host our bake sale event, and reached out to Pieta House to ask permission to donate money towards their mental health fund. </p>
+  
+  </div>
+  <div class="side" id="section-bio-3">
+  <center>
+<img id="profile-pic"src="images/bimpe.png" alt="Avatar">
+  </center>
+
+<h1 id="title">Emma Isip</h1>
+<h3 id="position"> coder </br> design consultant</h3>
+  <p id="bio-info">My name is Emanuelle Isip and I am a third year student in Kishoge Community College and I wanted to do this because Mental Health is important and should be discussed more openly in the community. In my opinion mental health isnt talked about as much as we would like to, more deaths could be prevented if we just speak up and dont shy away from the topic of mental health. We should educate people of all ages to help them learn about menatl health disorders and how to deal with them the proper way. I hope that with this webiste it will provide some education to our classmates.  </p>
+  <p id="bio-info"> I was the diary writer and I also helped with the development of this website and helped as mangaer for the bake sale. </p>
+  </div>
+</div>
+
+<script>
+document.getElementByClass("side").addEventListener("mouseover", mouseOver);
+document.getElementByClass("side").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+    document.getElementByClass("side").style.width = "100%";
+}
+
+function mouseOut() {
+    document.getElementByClass("side").style.width = "";
+}
+</script>
+
+	  </div>
+	  </div>
+
+   </body>
+</html>

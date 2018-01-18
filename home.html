@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE html>
+      <html>
+         <head>
+            <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+			
+			
+			<link rel="icon" 
+      type="image/png" 
+      href="images/logo.jpg">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link type="text/css" rel="stylesheet" href = "css/stylesheet.css"/>
+		
+            <title>mental health awareness</title>
+         </head>
+		 
+         <body>
+		 
+		
+
+		  <div class="topnav">
+		 
+  <a href="home.html"><img src="images/logo.jpg" width="150"></img></a></br></br>
+  <a class="active" href="home.html">Home</a>
+  <a  href="about.html">About</a>
+  <a href="contactpage.html">Contact</a>
+  <a href="help.html">Help</a>
+  <a href="frequently asked.hmtl">FAQ</a>
+  
+</div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+
+jQuery("document").ready(function($){
+
+	var nav = $('.topnav');
+
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			nav.addClass("f-nav");
+		} else {
+			nav.removeClass("f-nav");
+		}
+	});
+
+});
+  </script>
+
+		 
+           <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+  <img src="Images/help1.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="Images/help3.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<hr>
+<center>
+<div id="secondary-content">
+    <div class="wrapper">
+        <article style="background-image: url('images/wall.jpeg');">
+            <div class="overlay">
+                <h4>Get Support</h4>
+                <p><small>If you need support any support with your mental health or are looking to support a friend or family member in need, we can help!</small></p>
+                	<a href="#" class="btn-3d red">Get Support</a>
+	<pre><span class="anc"></span> <span class="att"></span><span class="val"></span> <span class="att"></span><span class="val"></span><span class="anc"></span></pre>
+            </div>
+        </article>
+        <article style="background-image: url('images/about.jpeg');">
+            <div class="overlay">
+                <h4>Who are we?</h4>
+                <p><small>We are angels sent here to help you! Well, that's the broad summary but if you'd like to know more just click that link... the one down there.</small></p>
+               <a href="#" class="btn-3d red">About Us</a>
+	<pre><span class="anc"></span> <span class="att"></span><span class="val"></span> <span class="att"></span><span class="val"></span><span class="anc"></span></pre>
+            </div>
+        </article><div class="clear"></div>
+    </div>
+</div></center>
+
+
+
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Mental<span>Health</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">About</a>
+					·
+					<a href="#">Faq</a>
+					·
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">MHireland &copy; 2017</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Ninth Lock Rd, Kishoge,</span>Lucan, Co. Dublin </br> Kishoge Community College.</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 511 11111</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@Mhireland.com</a></p>
+				</div>
+
+			</div>
+
+		
+			
+			
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About MHireland</span>
+					MHireland is an organisation set up to promote mental health awareness. Note that we aren't a charity ourselves but we provide aid to various other mental health charities.
+				</p>
+				
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>			
+									
+
+									
+									
+
+</body>
+</html>
